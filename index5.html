@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                      <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>Document</title>
+</head>
+<style>
+     * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } 
+    form {
+    text-align: center;
+    margin-top: 50px; 
+  }
+  button {
+      padding: 10px;
+      font-size: 14px;
+      color: white;
+      background-color: #3498db;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+</style>
+<body>
+      <form>
+
+    <div class="genero">
+      <label><strong>Gênero:</strong></label>
+      <label><input type="radio" name="genero" value="masculino" required> Masculino</label>
+      <label><input type="radio" name="genero" value="feminino"> Feminino</label>
+      <label><input type="radio" name="genero" value="outro"> Outro</label>
+    </div>
+
+    <button type="submit">enviar</button>
+  </form>
+
+</body>
+</html>

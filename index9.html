@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                      <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>Document</title>
+</head>
+<style>     
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } 
+    form {
+    text-align: center;
+    margin-top: 50px; 
+    }
+    
+    button {
+      padding: 10px;
+      font-size: 14px;
+      color: white;
+      background-color: #3498db;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s;
+    } 
+        h2 {
+      text-align: center;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    } 
+    button:hover {
+      background-color: #45a049;
+    }
+
+    @media (max-width: 600px) {
+      .form-grid {
+        grid-template-columns: 1fr;
+      }
+    } 
+</style>
+<body>
+    
+</body>
+</html>
